@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contador de palavras</title>
+</head>
+
+<body>
+    <h1>Contador de palavras por segundo</h1>
+
+    <input type="text" id="nome" placeholder="nome do jogador">
+
+    <p class="frase">Cronometro</p>
+    <ul class="informacoes">
+        <li><span id="tempo">30</span> segundos</li>
+    </ul>
+
+    <textarea id="campo-digitacao" cols="40" rows="5"></textarea><br>
+
+    <button id="botao-reiniciar">Reset</button>
+
+    <ul>
+        <li><span id="caracteres-digitados">0</span> caracteres digitadas</li>
+        <li><span id="palavras-digitadas">0</span> palavras digitadas</li>
+    </ul>
+
+    <br>
+    <h2>placar</h2>
+    <table id="tabela-resultado" border="1">
+        <thead>
+            <th>usuario</th>
+            <th>palavras por segundo</th>
+        </thead>
+    </table>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
